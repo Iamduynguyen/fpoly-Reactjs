@@ -54,6 +54,25 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 .header{
 	position:relative;
 }
+.ulcon{
+    display: none;
+    background-color: turquoise;
+    z-index: 1;
+}
+.ulcon>li{
+	list-style-type: none;
+	background-color: black;
+    font-size: 12;
+}
+.licha:hover{
+    background-color: blue;
+}
+
+.licha>a:hover{
+	text-decoration: none;
+	font-size: 22px;
+    color: white;
+}
 /* Topbar */
 .topbar {
     background-color: #2e2751;
@@ -1475,6 +1494,83 @@ blockquote {
 }
 .breadcrumbs.style2 ul li a:hover{
 	color:#179E66;
+}
+.prevstyle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.prevstyles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 725px;
+    margin-left: 25px;
+}
+.colorred{
+    color: red;
+}
+.colorreds{
+    color:red;
+    font-size: x-small;
+}
+.nextstyles{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.nextstyle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    margin-top: 250px;
+    margin-right: 50px;
+}
+.services{
+    position: relative;
+}
+.uladmin td a{
+    text-align: 80px;
+}
+.formimg{
+    width: 500px;
+    float: right;
+    margin-right: 150px;
+    text-align: center;
+}
+.nmstyle{
+    color: blue;
+    font-size: large;
+}
+.nmstyles{
+    color: blue;
+    font-size: small;
+}
+.userimg{
+    background-color: cornsilk;
+}
+.colum{
+    display: flex;
+}
+.item{
+    margin: auto;
+}
+.formadd{
+    width: 500px;
+    float: left;
+}
+.formadd button{
+    width: 33%;
+    margin-left: 33%;
+}
+.items{
+    margin: 20;
 }
 .breadcrumbs .bread-menu {
     color: #fff;

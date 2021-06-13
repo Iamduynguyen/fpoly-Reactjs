@@ -1,62 +1,67 @@
 import React from 'react'
 import logo from './logo.png'
+import '../../assets/css/navstyle.css';
+import { Link } from 'react-router-dom'
 
 const AdminNav = () => {
-    return (
-<div className="d-flex flex-column flex-shrink-0 p-3 bg-light" style={{width: '280px'}}>
-        <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-          <svg className="bi me-2" width={40} height={32}><use xlinkHref="#bootstrap" /></svg>
-          <img src= {logo} width = '180'/>
-        </a>
-        <hr />
-        <ul className="nav nav-pills flex-column mb-auto">
-          <li className="nav-item hv-cyan">
-            <a href="/" className="nav-link active" aria-current="page">
-              <svg className="bi me-2" width={16} height={16}><use xlinkHref="#home" /></svg>
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link link-dark">
-              <svg className="bi me-2" width={16} height={16}><use xlinkHref="#speedometer2" /></svg>
-              Products
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link link-dark">
-              <svg className="bi me-2" width={16} height={16}><use xlinkHref="#table" /></svg>
-              Dashboard
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link link-dark">
-              <svg className="bi me-2" width={16} height={16}><use xlinkHref="#grid" /></svg>
-              Acount
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link link-dark">
-              <svg className="bi me-2" width={16} height={16}><use xlinkHref="#people-circle" /></svg>
-              Customers
-            </a>
-          </li>
-        </ul>
-        <hr />
-        <div className="dropdown">
-          <a href="#" className="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="" width={32} height={32} className="rounded-circle me-2" />
-            <strong>admin</strong>
-          </a>
-          <ul className="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-            <li><a className="dropdown-item" href="#">New project...</a></li>
-            <li><a className="dropdown-item" href="#">Settings</a></li>
-            <li><a className="dropdown-item" href="#">Profile</a></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
+  var x = false;
+  function onclickproduct() {
+    var b = document.getElementById("product");
+    if (x) {
+      b.style.display = "block";
+      x = false;
+    } else {
+      b.style.display = "none";
+      x = true;
+    }
+  }
+  return (
+    <nav id="sidebar">
+      <div className="sidebar-header">
+        <img src={logo} width='150' />
       </div>
-    )
+      <ul className="list-unstyled components">
+        <p>Admin Control</p>
+        <li><a href="http://localhost:3000/index">Home</a></li>
+        <li id="log" >
+
+          <a onClick={onclickproduct} data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Sản phẩm</a>
+          <ul className="collapse list-unstyled" id="product">
+            <li>
+              <Link to="Fashion" >Đồng hồ thời trang</Link>
+            </li>
+            <li>
+              <Link to="diamond" >Đồng hồ cao cấp</Link>
+            </li>
+            <li>
+              <Link>Đồng hồ thể thao</Link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Pages</a>
+          <ul className="collapse list-unstyled" id="pageSubmenu">
+            <li>
+              <a href="#">Page 1</a>
+            </li>
+            <li>
+              <a href="#">Page 2</a>
+            </li>
+            <li>
+              <a href="#">Page 3</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Acount</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  )
 }
 
 export default AdminNav

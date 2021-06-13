@@ -2,7 +2,6 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './../assets/dashboard.css';
 import AdminNav from '../Components/admin/nav';
-import AdminHeader from '../Components/admin/header';
 
 const Adminlayout = ({ children }) => {
   return (

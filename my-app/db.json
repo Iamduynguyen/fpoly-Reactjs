@@ -1,109 +1,143 @@
 {
-  "product": [
+  "fashion-Watch": [
     {
       "id": 1,
-      "name": "Đồng hồ cao cấp 01",
-      "price": "1011",
-      "quantity": "0",
-      "img": "https://product.hstatic.net/1000269795/product/dong_ho_h43515175_777a4b987a1d469b85abba77476b0b83_large.jpg"
+      "name": "Fashion Watch pro-01",
+      "price": 1000000,
+      "quantity": 0,
+      "img": "https://product.hstatic.net/1000269795/product/dong_ho_h43515175_777a4b987a1d469b85abba77476b0b83_large.jpg",
+      "title": "Đồng hồ  thời trang Chenxi. DHCH-002. không đơn thuần chỉ là 1 chiếc đồng hồ đó còn là 1 phụ kiện thời trang đẹp và sang trọng. Với thiết kế bắt mắt cùng chất liệu vỏ inox sáng bóng, dây da cao cấp và mặt kính cứng  tăng cường độ cứng và độ bền cho chiếc đồng hồ."
     },
     {
       "id": 3,
-      "name": "Đồng hồ cao cấp 02",
-      "price": "1003",
-      "quantity": "12000",
-      "img": "https://cdn.tgdd.vn/Files/2020/03/11/1241419/c16_800x710.jpg"
+      "name": "Fashion Watch pro-02",
+      "price": "1500000",
+      "quantity": "10",
+      "img": "https://donghox.com/spree/products/1611/product/3a.jpg?1592293897",
+      "title": "Đồng hồ  thời trang Chenxi. DHCH-002. không đơn thuần chỉ là 1chiếc đồng hồ đó còn là 1 phụ kiện thời trang đẹp và sang trọng. Với thiết kế bắt mắt cùng chất liệu vỏ inox sáng bóng, dây da cao cấp và mặt kính cứng  tăng cường độ cứng và độ bền cho chiếc đồng hồ."
     },
     {
       "id": 6,
-      "name": "Đồng hồ điện tử",
-      "price": "10014",
-      "quantity": "29",
-      "img": "https://didongviet.vn/pub/media/catalog/product//d/o/dong-ho-dinh-vi-tre-em-abardeen-v7.jpg"
+      "name": "Fashion Watch pro-03",
+      "price": "10000000",
+      "quantity": "50",
+      "img": "https://image.voso.vn/users/vosoimage/images/9ba76b796bb8a3be76e642104ca0dfd1?t%5B0%5D=compress%3Alevel%3D100&accessToken=1c85be923ba9c1e8a782f8e93f2549253c567f210683a2ca4d9e6969d95547cd",
+      "title": "Đồng hồ thời trang"
     },
     {
       "id": 7,
-      "name": "Đồng hồ điện tử 02",
-      "price": "10000",
-      "quantity": "0",
-      "img": "https://vn-test-11.slatic.net/p/df467f6a8176e926520f600d8ffa11c1.jpg"
+      "name": "Fashion Watch pro-04",
+      "price": "10000000",
+      "quantity": "5",
+      "img": "https://vn-test-11.slatic.net/p/df467f6a8176e926520f600d8ffa11c1.jpg",
+      "title": "Đồng hồ thời trang Vinoce"
     },
     {
       "id": 8,
-      "name": "SP21 Đồng hồ thời trang",
-      "price": "10000",
-      "quantity": "200",
-      "img": "https://product.hstatic.net/1000269795/product/dong_ho_h43515175_777a4b987a1d469b85abba77476b0b83_large.jpg"
+      "name": "Fashion Watch pro-05",
+      "price": "1000000",
+      "quantity": "100",
+      "img": "https://aolix.vn/uploads/source/san-pham/dong-ho-nam/dong-ho-thoi-trang-nam-dep-aolix-al-6825g.jpg",
+      "title": "Đồngn hồ thời trang"
     },
     {
       "id": 10,
       "name": "SP04 Đồng hồ Thời trang",
-      "price": "10000",
-      "quantity": "200",
+      "price": 1000000,
+      "quantity": 200,
       "img": "https://didongviet.vn/pub/media/catalog/product//d/o/dong-ho-dinh-vi-tre-em-abardeen-v7.jpg"
     },
     {
       "id": 11,
-      "name": "Đồng hồ điện tử",
-      "price": "10000",
+      "name": "Fashion Watch pro-09",
+      "price": "1000000",
       "quantity": "200",
-      "img": "https://product.hstatic.net/1000269795/product/dong_ho_h43515175_777a4b987a1d469b85abba77476b0b83_large.jpg"
+      "img": "https://donghochinhhangsmile.com/wp-content/uploads/2017/04/dong-ho-thoi-trang-nu-babila-bl6158.jpg",
+      "title": "ĐỒng hồ thời trang"
     },
     {
       "id": 12,
       "name": "SP21 Đồng hồ thời trang",
-      "price": "10000",
-      "quantity": "200",
-      "img": "https://vn-test-11.slatic.net/p/df467f6a8176e926520f600d8ffa11c1.jpg"
+      "price": "1000000",
+      "quantity": "0",
+      "img": "https://cdn.tgdd.vn/Products/Images/7264/209719/pierre-cardin-pcx6858l296-nu-2-750x500.jpg",
+      "title": "Watch"
     },
     {
       "id": 13,
       "name": "Đồng hồ cao cấp 01",
-      "price": "10000",
-      "quantity": "0",
+      "price": 1300000,
+      "quantity": 100,
       "img": "https://cdn.tgdd.vn/Files/2020/03/11/1241419/c16_800x710.jpg"
     },
     {
       "id": 14,
       "name": "SP014",
-      "price": "10000",
-      "quantity": "0",
-      "img": "https://didongviet.vn/pub/media/catalog/product//d/o/dong-ho-dinh-vi-tre-em-abardeen-v7.jpg"
+      "price": "1500000",
+      "quantity": "200",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-MVh86h0-W1Gfhk9qvXKzsppEUBi1FZz87w&usqp=CAU",
+      "title": "Watch"
     },
     {
       "id": 15,
       "name": "SP0145",
-      "price": "10000",
-      "quantity": "200",
+      "price": 1300000,
+      "quantity": 0,
       "img": "https://didongviet.vn/pub/media/catalog/product//d/o/dong-ho-dinh-vi-tre-em-abardeen-v7.jpg"
     },
     {
       "id": 16,
       "name": "sp90",
-      "price": "20000",
-      "quantity": "3",
+      "price": 1600000,
+      "quantity": 300,
       "img": "https://vn-test-11.slatic.net/p/df467f6a8176e926520f600d8ffa11c1.jpg"
     },
     {
       "id": 17,
       "name": "SP016 Đồng hồ sịn",
-      "price": "100",
-      "quantity": "0",
+      "price": 1450000,
+      "quantity": 200,
       "img": "https://didongviet.vn/pub/media/catalog/product//d/o/dong-ho-dinh-vi-tre-em-abardeen-v7.jpg"
     },
     {
+      "id": 18,
       "name": "Đồng hồ thụy sỹ",
-      "price": "1000000",
-      "quantity": "200",
-      "img": "https://product.hstatic.net/1000269795/product/dong_ho_h43515175_777a4b987a1d469b85abba77476b0b83_large.jpg",
-      "id": 18
+      "price": 1350000,
+      "quantity": 0,
+      "img": "https://product.hstatic.net/1000269795/product/dong_ho_h43515175_777a4b987a1d469b85abba77476b0b83_large.jpg"
     },
     {
-      "name": "Đồng hồ điện tử",
-      "price": "200000",
+      "id": 19,
+      "name": "Fashion Watch pro-30",
+      "price": "1000000",
       "quantity": "30",
+      "img": "https://24kara.com/files/sanpham/3811/1/jpg/dong-ho-maurice-lacroix-pt6158-ss002-63e-pontos-day-and-date-40mm.jpg",
+      "title": "Đồng hồ thời trang"
+    },
+    {
+      "id": 20,
+      "name": "Fashion Watch pro-30",
+      "price": "2000000",
+      "quantity": "50",
+      "img": "https://dienmaycenter.vn/wp-content/uploads/2020/04/twenty-seventeen-w001q.png",
+      "title": "Watch"
+    }
+  ],
+  "diamond-Watch": [
+    {
+      "name": "sp123",
+      "price": 5000000,
+      "quantity": 300,
       "img": "https://didongviet.vn/pub/media/catalog/product//d/o/dong-ho-dinh-vi-tre-em-abardeen-v7.jpg",
-      "id": 19
+      "id": 20,
+      "title": ""
+    },
+    {
+      "name": "Diamond_sp01",
+      "price": 10000000,
+      "quantity": 30,
+      "img": "https://donghocosmile.com/wp-content/uploads/2018/04/%C4%91%E1%BB%93ng-h%E1%BB%93-%C4%91eo-tay-nam-th%E1%BB%83-thao-cao-cap-hb5k-17-0.jpg",
+      "id": 21
     }
   ]
 }
