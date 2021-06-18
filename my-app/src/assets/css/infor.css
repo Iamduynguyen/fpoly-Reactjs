@@ -17,7 +17,7 @@
 }
 .khung{
     position: relative;
-    height: 500px;
+    height: 750px;
 }
 .khung hr{
     position: absolute;
@@ -58,9 +58,13 @@
     width: 100px;
     margin-right: 20px;
 }
-.addifpro{
+.addinforpro{
     position: absolute;
+    display: flex;
+    text-align: center;
+    margin-top: 500px;
     height: 200px;
+    width: 1000px;
     background-color: lightgreen;
 }
 /* .rightstyle form img{

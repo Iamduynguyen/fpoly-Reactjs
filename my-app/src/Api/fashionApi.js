@@ -49,6 +49,10 @@ const fashionApi = {
         gethanghet(page){
             const url = `/fashion-Watch?quantity=0&_page=${page}&_limit=6`;
             return axiosApi.get(url)
+        },
+        gethangthem(price){
+            const url = `/fashion-Watch?quantity_gte=${500000}&price_lte=${15000000}&limit=6`;
+            return axiosApi.get(url)
         }
 
 }
